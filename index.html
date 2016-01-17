@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PHP uploader</title>
+		<link href="./css/site.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<h1>Image Upload</h1>
+		
+		<form method="POST" action="./upload.php">
+		<input type="file" id="images" name="img[]" multiple>
+		<output id="list"></output>
+		<input type="submit" value="upload">
+		</form>
+		<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+		<script type="text/javascript" src="./js/site.js"></script>
+	</body>	
+</html>
